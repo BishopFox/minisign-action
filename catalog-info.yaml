@@ -1,0 +1,14 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: minisign-action
+  description: Action to sign files using minisign
+  tags:
+    - action-fork
+    - docker
+    - language:shell
+spec:
+  type: action
+  lifecycle: production
+  owner: group:consultingengineering
